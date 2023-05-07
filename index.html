@@ -11,30 +11,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <nav class="container-fluid navbar sticky-top justify-content-between" style="background-color: #F5FBEF;">
+  <!---------------------- NAVIGATION BAR ------------------------>
+  <nav class="navbar navbar-expand-lg container-fluid" style="background-color: #C5D8D1;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/Estelladev.github.io/img/petlogo.png" style="width: 250px" alt="Dog and Cat"></a>
-    <div class="btn d-flex flex-row justify-content-between align-items-end">
-        <div class="dropdown">
-          <a id="button" class="btn dropdown-toggle  m-1 rounded-pill w-10" style="text-decoration: #19555B; font-weight: 500px; border-radius: 10px;"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Get involved
-          </a>
-        
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/Estelladev.github.io/pages/Adopt.html">Adopt a Pet</a></li>
-            <li><a class="dropdown-item" href="/Estelladev.github.io/pages/Foster.html">Foster a Pet</a></li>
-            <li><a class="dropdown-item" href="/Estelladev.github.io/pages/Donate.html">Donate</a></li>
-          </ul>
-        </div>
-        <button id="button" type="button" class="btn m-1 rounded-pill w-10" style="text-decoration: #19555B; font-weight: 500px; border-radius: 10px;"><a class="text text-black text-decoration-none" href="/Estelladev.github.io/pages/About.html">About</a></button>
-        <button id="button" type="button" class="btn m-1 rounded-pill w-10" style="text-decoration: #19555B; font-weight: 500px; border-radius: 10px;"><a class="text text-black text-decoration-none" href="/Estelladev.github.io/pages/Login.html">Log in</a></button>
+      <a class="logo" href="#"><img src="/Estelladev.github.io/img/furrlogo.png" alt="Furrster and Adopt Logo" style="width: 250px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Link</a>
+          </li>
+
+          <!------------------ NAVBAR DROPDOWN BUTTON----------------------- -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Get involved
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Adopt</a></li>
+              <li><a class="dropdown-item" href="#">Foster</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Donate</a></li>
+            </ul>
+            <!---------------END OF NAVBAR DROPDOWN BUTTON ---------------------->
+        </ul>
+
+            <!-- --------- ---for signup and log in btn -------------------------->
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="navBtn">
+            <a class="btn" href="#">Sign up</a>
+          </li>
+          <li class="navBtn">
+            <a class="btn" href="#">Log in</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-<!------------------------------------------------------------- end of Navigation Bar---------------------------------------------------------->
+  <!-------------------------------------------------------- end of NAVIGATION BAR ----------------------------------------------------->
 
 
-<!-- --------------Landing Page------------ -->
-<section>
+<!-- <section>
   <img id="banner" src="/Estelladev.github.io/img/Doggie.png" class="img-fluid w-100" alt="Cat&Dog">
   <div id="welcome"> 
     <h1>We're so glad you are here!</h1>
@@ -44,13 +72,12 @@
   </div>
   <div class="m-md-5">
   <button id="learn-button" type="button" class=" m-5 p-3 rounded-pill" style="text-decoration: #19555B; border-radius: 10px;"><a class="text text-black text-decoration-none d-flex text-center" href="/Estelladev.github.io/pages/About.html">Learn more!</a></button>
-</div>
-</section>
-<!---------end of the landing page--------------- -->
+</div> 
+ </section> -->
 
 
-<!------------------------------------------------- Card Image-------------------------------------------------------------------->
-<section class="d-flex justify-content-center container-fluid p-lg-5" style="background-color: #F5FBEF;">
+<!-- ----------------------------------------------- Card Image------------------------------------------------------------------ -->
+<!-- <section class="d-flex justify-content-center container-fluid p-lg-5" style="background-color: #F5FBEF;">
   <h2>Find Your Pawrfect Match!</h2>
 </section>
 <section>
@@ -110,13 +137,13 @@
       </div>
     </div>
   </section>
-  <br><button id="card-button" type="button" class="d-flex justify-content-center m-5 p-3 rounded-pill" style="text-decoration: #19555B; border-radius: 10px;"><a class="text text-black text-decoration-none" href="/Estelladev.github.io/pages/Adopt.html">Adopt Now!</a></button>
+  <br><button id="card-button" type="button" class="d-flex justify-content-center m-5 p-3 rounded-pill" style="text-decoration: #19555B; border-radius: 10px;"><a class="text text-black text-decoration-none" href="/Estelladev.github.io/pages/Adopt.html">Adopt Now!</a></button> -->
 <!-------------------------------------------------- end of Card Image ----------------------------------------------------->
 
 
 
 <!--------------------------------------------- Featured content ----------------------------------------------------------------->
-<section class="d-flex justify-content-center container-fluid p-lg-5" style="background-color: #F5FBEF;">
+<!-- <section class="d-flex justify-content-center container-fluid p-lg-5" style="background-color: #F5FBEF;">
       <h2>Featured Pawrents</h2>
 </section>
 
@@ -136,11 +163,11 @@
   <p class="d-flex justify-content-center"> If you're considering adoption, we encourage you to follow in Jane's footsteps and give a deserving pet a loving Furr-ever home.
   </p><br><button id="feat-button" type="button" class="btn m-5 p-3 rounded-pill" style="text-decoration: #19555B; border-radius: 10px;"><a class="text text-black text-decoration-none" href="/Estelladev.github.io/pages/Foster.html">Be a FURR-ever parent!</a></button>
 </div>
-</section>
+</section> -->
 <!-----------------------------------------------------------end ofFeatured Content----------------------------------------------->
 
 <!------------------------------------------- footer --------------------------------------------------------->
-<footer>
+<!-- <footer>
   <h4 class="d-flex justify-content-center" style="color: #19555B;">Follow us:</h4>
 <section class="footerContainer">
   <div class="socialinks d-flex justify-content-center">
@@ -152,7 +179,7 @@
     <p>Copyright &copy;2023; Designed by<span> Estella</span></p>
   </div>
 </section>
-</footer>
+</footer> -->
 <!--------------------------------------------- end of Footer ----------------------------------------->
 <script src="./bootstrap-5.3.0-alpha3-dist/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
 </body>

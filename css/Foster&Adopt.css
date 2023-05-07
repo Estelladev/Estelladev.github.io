@@ -3,13 +3,45 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
+    
+}
+/* colors
+#19555B
+#F5FBEF */
+
+
+/* Navigation Bar */
+.navbar .navbar-nav .nav-item a{
+    padding: 20px;
+}
+
+.navbar .navbar-nav .navBtn{
+    padding: 10px;
 }
 
 
-/* Homepage */
+.navBtn{
+    border-radius: 50px;
+    border-width: 10px;
+}
+.navBtn:hover{
+    background-color: #92AD94;
+}
+
+/* end of Navigation Bar */
+
+
+
+
+
+
+
+/* Homepage
 body{
-    background-color: #C5D8D1;
+    background-color:#C5D8D1 ;
 }
+
+
 #button:hover{
     background-color: #92AD94;
 }
@@ -167,9 +199,9 @@ footer{
     margin: 20px auto;
 }
 
-/* end of Aboutpage */
+end of Aboutpage
 
-/* Adopt */
+Adopt
 
 #container{
     padding: 50px 80px;
